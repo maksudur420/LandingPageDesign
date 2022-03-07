@@ -9,6 +9,12 @@
     top: 0;
     z-index:1;
 }
+.navbar .nav-logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
 .navbar a{
    color: aliceblue; 
 }
