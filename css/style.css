@@ -21,24 +21,27 @@
     color: rgb(255, 255, 255);
     font-size: 28px;
 }
-.dropdown-menu{
-    background-color:transparent;
-    border-radius: 0;
-    padding: 0;
-    margin-top:0px;
-    border:0;
-    opacity: 0.6;
+.dropdown{
+    position: relative;
+}
+.dropdown-menu[data-bs-popper] {
+    background-color: #fff;
+    width: 50%;
 }
 .dropdown-menu li{
-    border: 1px solid #808080;
+    border-bottom: 1px solid #808080;
 }
 .dropdown-menu li a{
-    color: blue;
+    color: black;
 }
 .dropdown-menu li a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
 
+}
+.navbar-collapse{
+    text-align: center;
+    width: 60%;
 }
 .card{
     border:none;
